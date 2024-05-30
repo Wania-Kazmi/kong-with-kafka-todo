@@ -1,0 +1,6 @@
+POSTGRES_PASSWORD
+.env
+poetry.lock
+__pycache__/
+.mypy_cache/
+

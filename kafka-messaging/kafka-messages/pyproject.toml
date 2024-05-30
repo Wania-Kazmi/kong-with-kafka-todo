@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "kafka-messages"
+version = "0.1.0"
+description = ""
+authors = ["Wania-Kazmi <waniakz019@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = "^0.29.0"
+aiokafka = "^0.10.0"
+sqlmodel = "^0.0.18"
+sqlalchemy = "^2.0.30"
+psycopg = {extras = ["binary"], version = "^3.1.19"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
